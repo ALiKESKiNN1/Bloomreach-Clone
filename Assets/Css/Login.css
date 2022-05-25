@@ -1,0 +1,47 @@
+div#help {
+    margin-left: auto;
+}
+#contactUs{
+    border: none;
+    background-color: white;
+}
+#contactUs > a{
+    color: black;
+    font-weight: 500;
+}
+#loginMainSection{
+    text-align: center;
+    text-align: -webkit-center;
+}
+.col-12{
+    text-align: -webkit-left;
+}
+.container-2{
+    max-width: 320px;
+
+}
+button.btn.btn-primary {
+    display: block;
+    width: 100%;
+}
+button.btn.btn-white{
+    display: block;
+    width: 100%;
+}
+#password{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#email{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 35px;
+}
+p {
+    font-size: 15px;
+    margin-bottom: 5px!important;
+}

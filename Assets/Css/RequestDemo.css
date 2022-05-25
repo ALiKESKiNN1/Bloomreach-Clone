@@ -1,0 +1,230 @@
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem!important;
+}
+.photo-pattern-6 {
+    top: -22%;
+    right: -14.5%;
+    height: 145%;
+}
+.photo-pattern {
+    position: absolute;
+}
+.photo-pattern .pattern-1, .photo-pattern .pattern-2, .photo-pattern .pattern-3 {
+    position: relative;
+}
+.photo-pattern-6 .pattern-1 {
+    z-index: -1;
+    height: 100%;
+}
+.photo-pattern-6 .pattern-2 {
+    bottom: 0;
+    right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 1;
+    height: 100%;
+    position: absolute!important;
+    align-items: flex-end!important;
+    display: flex!important;
+}
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.position-relative.z-index-1 {
+    z-index: 2;
+}
+.photo-pattern-6 .pattern-1 img {
+    height: 100%;
+}
+.photo-pattern-6 .pattern-2 img {
+    height: 45%;
+}
+.col-lg-6.pr-lg-70.pt-5.pt-md-50.pb-60.pb-md-50.bg-primary.color-white.h-100.position-relative.left-section {
+    padding-right: 7rem!important;
+    padding-bottom: 17rem!important;
+    padding-top: 5rem!important;
+    height: 100%!important;
+    background-color: #002840!important;
+    color: white;
+
+
+
+}
+
+.request-demo .request-demo-wrapper .left-section:before {
+    position: absolute;
+    top: 0;
+    content: "";
+    right: 99%;
+    width: 500rem;
+    height: 100%;
+    background-color: #002840!important;
+
+}
+.row.br-slider.br-slider-5.mt-50.mt-md-80.mt-lg-90.mb-md-90.mb-lg-80{
+    margin-top: 9rem!important;
+    margin-bottom: 8rem!important;
+}
+.mx--4{
+    margin-right: -3.5rem!important;
+    margin-left: -4.5rem!important;
+}
+.col-md-8.offset-md-2.col-lg-6.offset-lg-0{
+    padding: 0 !important;
+}
+@media only screen and (min-width: 360px){
+    .col-sm-12.col-md-5.pr-lg-70.pt-5.pt-md-50.pb-60.pb-md-50.bg-primary.color-white.h-100.position-relative.left-section{
+        background-color: #002840!important;
+        color: white;
+    }
+    div#priceFormInput{
+        display: inherit!important;
+    }
+    #companyRevenue, #productOfInterest, #ıAmFrom{
+        width: 100%;
+    }
+    .photo-pattern.photo-pattern-6{
+        display: none;
+    }
+    .row.br-slider.br-slider-5.mt-50.mt-md-80.mt-lg-90.mb-md-90.mb-lg-80{
+        max-width: 84%;
+    }
+}
+@media only screen and (min-width: 700px){
+    .photo-pattern.photo-pattern-6{
+        display: block;
+    }
+    .row.br-slider.br-slider-5.mt-50.mt-md-80.mt-lg-90.mb-md-90.mb-lg-80{
+        max-width: 100%;
+    }
+    
+}
+.col-lg-6.mt-110.mt-md-130.mt-md-150.mt-lg-0.position-relative {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* klsndjansd */
+form#priceForm {
+    box-shadow: 0px 8px 16px rgb(0 0 0 / 8%);
+    background: #FFFFFF;
+    width: 100%;
+    padding: 45px 32px 40px;
+    min-height: 574px;
+}
+.firstName, .lastName {
+    display: inline-block;
+}
+.companyRevenue, .companyName, .phoneNumber, .productOfInterest, .message, .ıAmFrom, .jobTitle, #companyRevenue{
+    display: grid;
+}
+#priceForm >h3{
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 40px;
+}
+#priceFormInput > div > input, select{
+    margin: 0 0 24px;
+    padding: 10px 11px 8px;
+    padding-right: 70px;
+}
+#companyRevenue, #productOfInterest, #ıAmFrom{
+    margin: 0 0 24px;
+}
+div#priceFormInput {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: grid;
+}
+#toPricingText > p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #80939F !important;
+    margin-top: 24px;
+}
+#toPricingText > p > a{
+    color: #00b2db !important;
+}
+.wrapper > img{
+    max-width: 100%;
+}
+#priceFormInput > button{
+    border-radius: 34px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 11px;
+    margin: 23px auto 0;
+    height: 46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00b2db;
+}
+.hr1{
+    max-width: 36%;
+}
+#toInformText > p{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 12.5px;
+}
+#toInformText > p > a {
+    color: #0DB6DD!important;
+}
+#checkLink {
+    color: #0DB6DD!important;
+}
+
+#priceFormInput > button {
+    background: #00b2db;
+    border-color: #00b2db;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 2.5rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* secbrief */
+.briefInformation{
+    padding-bottom: 64px;
+}
+#infoImg{
+    max-width: inherit;
+}
+.briefInformation > .container > .row > h6{
+    text-align: center;
+    line-height: 17px;
+    color: #002840;
+    font-weight: normal;
+    margin: 0 auto 23px;
+}
